@@ -1,4 +1,11 @@
 #include "sort.h"
+/**
+*counting_sort - sort an array of int via count sort
+*@array: array to be sorted
+*@size:size of array
+*
+*Return: Void
+*/
 void counting_sort(int *array, size_t size)
 {
 	if (array && size > 1)
@@ -28,7 +35,6 @@ void counting_sort(int *array, size_t size)
 			print_array(count, max);
 			for (j = 0; j <= max; j++)
 				printf("%d", count[j]);
-		
 			for (j = 0; j <= max; j++)
 			{
 				while (count[j] > 0)
