@@ -25,4 +25,5 @@ void recursive_sort(int *arr, int l, int r);
 int part_middle(int *arr, int l, int r);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size);
 #endif
