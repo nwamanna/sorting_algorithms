@@ -7,7 +7,7 @@
 *Return: Void
 */
 
-void switch_int(listint_t *ptr, listint_t *key);
+void switch_int(listint_t *ptr, listint_t *key)
 {
 	if (ptr->prev == NULL && key != NULL && key->n < ptr->n)
 	{
